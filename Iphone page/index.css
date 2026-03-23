@@ -1,0 +1,125 @@
+@import url(swipper.css);
+*{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 2px
+}
+.top{
+    justify-content: center;
+    display: flex;
+    background-color:white;
+    height: 40px;
+    width: 100%;
+}
+.in{
+    justify-content: center;
+    text-align: center;
+    font-size: 12px;
+    display: flex;
+
+}
+.in ul{
+    display: flex;
+
+}
+.list li{
+    list-style: none;
+    padding: 10px;
+}
+.p{
+    background-color: rgb(231, 243, 243);
+    font-size: 12px;
+    height: 35px;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.i h1{
+    font-size: 50px;
+    margin-top: 30px;
+    margin-left: 9%;
+}
+.img{
+    display: flex;
+    justify-content: center;/*with center */
+    align-items: center;/*hight center*/
+    margin-top: 10px;
+
+
+}
+.img div img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+
+}
+.img div{
+    height: 80px;
+    width: 80px;
+
+}
+.img div h6{
+    text-align: center;
+
+}
+.img div img:hover{
+    cursor: pointer;
+
+}
+.big h1{
+    margin-top: 65px;
+    font-size: 50px;
+    margin-left: 9%;
+   
+}
+.big{
+    background-color: rgb(231, 243, 243);
+}
+.ii{
+    margin-top: 65px;
+    font-size: 50px;
+    margin-left: 1%;
+   
+}
+.phone{
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    margin-left: 16%;
+    margin-top: 20px;
+    height: 260px;
+    width: 200px;
+
+}
+.phone img{
+    margin-left: 30%;
+    display: flex;
+    object-fit: cover;
+    padding-left: 500px;
+}
+.phone img:hover{
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: ease-in-out;
+}
+.last{
+        background-color: rgb(231, 243, 243);
+       display: flex;
+       justify-content: center;
+       font-size: 12px;
+
+}
+.la{
+    display: flex;
+    
+
+}
+.la li{
+    list-style: none;
+}
+.la .si{
+    font-weight: bold;
+}
+.last .y{
+    margin-top: 10px;
+}
